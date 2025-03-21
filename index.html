@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="background-color: rgb(204, 226, 226);">priscillanzula</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        color: #333;
+    }
+
+    header {
+        background-color: #4a90e2;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    nav {
+        margin: top 10px;
+
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: none;
+    }
+
+    section {
+        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+        color: #4a90e2;
+        margin-bottom: 15px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    table th,
+    table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    table th {
+        background-color: #4a90e2;
+        color: #fff;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    form {
+        margin: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    input,
+    select,
+    button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        /* Light gray border */
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    input:focus,
+    select:focus {
+        border-color: #4a90e2;
+        /* Blue border on focus */
+        outline: none;
+    }
+
+
+    button {
+        background-color: #4a90e2;
+        /* Soft blue background */
+        color: #fff;
+        /* White text */
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #357ab8;
+        /* Darker blue on hover */
+    }
+
+    footer {
+        background-color: #4a90e2;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: auto;
+        box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer p {
+        margin: 0;
+        font-size: 1rem;
+    }
+</style>
+
+<body>
+    <header>
+
+        <h1 style="color: rgb(8, 8, 8);">🌍 Welcome to My Site</h1>
+
+        <nav>
+
+            <a href="about">About Us</a> |
+
+            <a href="services">Services</a>|
+
+            <a href="technologies">Technologies</a>|
+
+            <a href="Get in touch"> Contact us</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <section id="about">
+
+        <h2>👋 About Us</h2>
+
+        <p>We specialize in web development and design🎉</p>
+
+    </section>
+
+    <section>
+        <h2>Our Team</h2>
+        <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Team Image" width="500">
+    </section>
+
+    <section>
+        <h2> Who we are </h2>
+        <audio controls>
+            <source src="audio_intro.aac" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Introduction Video</h2>
+        <video controls width="500">
+            <source src="My video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+
+    <section>
+        <h2>Team Members</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St</td>
+                    <td>123-456-7890</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St</td>
+                    <td>987-654-3210</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Johnson</td>
+                    <td>789 Oak St</td>
+                    <td>555-555-5555</td>
+                    <td>bob@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Brown</td>
+                    <td>321 Pine St</td>
+                    <td>444-444-4444</td>
+                    <td>alice@example.com</td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </section>
+    <section id="services">
+
+        <h2>🛠️ Our Services</h2>
+
+        <ul>
+
+            <li>Web Development 🌐</li>
+
+            <li>SEO Optimization 📈</li>
+            <li>Web Design 🎨</li>
+            <li>Web Hosting 🌐</li>
+            <li>Domain Registration 🌐</li>
+
+        </ul>
+
+    </section>
+    <section id="technologies">
+        <h2>🔧 Technologies We Use</h2>
+
+        <ol type="I">
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>JavaScript</li>
+        </ol>
+
+
+    </section>
+    <section>
+
+        <h2>Register</h2>
+
+        <form action="submit.php" method="post">
+            <!--name field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <!--email field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <!--password field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+            <!--date of birth field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+
+
+            <!-- Dropdown for Services -->
+            <label for="service">Select a Service:</label>
+            <select id="service" name="service" required>
+                <option value="">Choose a service</option>
+                <option value="web-development">Web Development 🌐</option>
+                <option value="seo-optimization">SEO Optimization 📈</option>
+                <option value="web-design">Web Design 🎨</option>
+                <option value="web-hosting">Web Hosting 🌐</option>
+                <option value="domain-registration">Domain Registration 🌐</option>
+            </select>
+            <br><br>
+
+            <!-- Checkboxes for Services -->
+            <label>Select Additional Services:</label>
+            <input type="checkbox" id="web-development" name="additional_services" value="web-development">
+            <label for="web-development">Web Development 🌐</label>
+            <input type="checkbox" id="seo-optimization" name="additional_services" value="seo-optimization">
+            <label for="seo-optimization">SEO Optimization 📈</label>
+            <input type="checkbox" id="web-design" name="additional_services" value="web-design">
+            <label for="web-design">Web Design 🎨</label>
+            <input type="checkbox" id="web-hosting" name="additional_services" value="web-hosting">
+            <label for="web-hosting">Web Hosting 🌐</label>
+            <input type="checkbox" id="domain-registration" name="additional_services" value="domain-registration">
+            <label for="domain-registration">Domain Registration 🌐</label>
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+
+    </section>
+
+    <footer>
+
+        <p>© 2024 HTML Wizards. 🧙‍♂️</p>
+
+    </footer>
+
+
+</body>
+
+</html>
